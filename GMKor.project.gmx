@@ -8,8 +8,20 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <objects name="objects"/>
-  <rooms name="rooms"/>
+  <scripts name="scripts">
+    <script>scripts\createButton.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fArial50</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\oGlobal</object>
+    <object>objects\oRoom</object>
+    <object>objects\oButton</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rStage</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
